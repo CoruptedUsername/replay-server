@@ -9,7 +9,7 @@ export default defineConfig({
     outDir: "../pokemon-showdown-client/play.pokemonshowdown.com/replays",
     rollupOptions: {
       input: {
-        client: '../pokemon-showdown-client/play.pokemonshowdown.com/testclient-beta.html',
+        client: 'testclient-beta.html',
       },
       output: {
         manualChunks: {
