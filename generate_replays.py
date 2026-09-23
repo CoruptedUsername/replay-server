@@ -4,7 +4,7 @@ import os
 import re
 from collections import defaultdict
 
-replay_embed_location="https://staraptorshowdown.com/js/replay-embed.js"
+replay_embed_location="https://cottonee-cove.dynv6.net/js/replay-embed.js"
 subfolders = [f.path for f in os.scandir(
     "../pokemon-showdown/logs/") if f.is_dir() and f.path[-3] == "-"]
 # Only grabs last 2 months to avoid regenerating replays for old months
